@@ -1,33 +1,20 @@
-# Basic Seed with ng2-material
-## Based on [Rob Wormald](https://gist.github.com/robwormald/429e01c6d802767441ec) and [Justin Dujardin](https://justindujardin.github.io/ng2-material/)
+# grajm - Angular 2 Seed with Gulp, Redux, Angular2, JSPM, Material Design
+## Based on [Rob Wormald](https://gist.github.com/robwormald/429e01c6d802767441ec) and [Justin Dujardin](https://justindujardin.github.io/ng2-material/) and [Gerard Sans](https://medium.com/google-developer-experts/angular-2-introduction-to-redux-1cf18af27e6e#.dj3aclq7s)
+Version 0.01
+
 <pre><code>
-$ git clone https://github.com/z-bit/a2seed-rob_jspm.git a2seed_rob_mat
+$ git clone https://github.com/z-bit/a2_grajm.git my_app
+$ cd my_app
 $ npm install 
 $ jspm install 
 </code></pre>
-* run code with live-server ==> **works**
+
+* to update the quickly developing libraries
 
 <pre><code>
+$ jspm install angular2
 $ jspm install npm:ng2-material
-$ jspm install css
-
-@create /src/app.scss:
-    $md-font-url: "../jspm_packages/npm/ng2-material@0.2.10/dist/";
-    @import "../jspm_packages/npm/ng2-material@0.2.10/dist/font";
-    @import "../jspm_packages/npm/ng2-material@0.2.10/source/all";
-
-$ sass rc/app.sss src/app.css
-
-@edit /src/app.ts: 
-    import {MATERIAL_DIRECTIVES, MATERIAL_PROVIDERS} from "ng2-material/all";
-    import './app.css!';
-    ...
-    @Component({
-        **directives: [MATERIAL_DIRECTIVES],**
-    ...       
+$ jspm install npm:redux
 </code></pre>
 
-* @edit app.html: 
-    * copy source code from [ng2-material Demo Page - Buttons](https://justindujardin.github.io/ng2-material/#/components/button) 
-   
-* run with live-server => **OK**
+* run code with live-server ==> **works**
