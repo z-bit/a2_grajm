@@ -7,7 +7,7 @@ import {ReduxComponent} from "./redux/redux";
     template: `<div>
         <material></material>
         <redux></redux>
-    </div>`
+    </div>`,
     directives: [MaterialComponent, ReduxComponent]
 })
 export class SampleComponent {}
