@@ -23,7 +23,7 @@ System.config({
     "angular2": "npm:angular2@2.0.0-beta.9",
     "css": "github:systemjs/plugin-css@0.1.20",
     "es6-shim": "github:es-shims/es6-shim@0.35.0",
-    "ng2-material": "npm:ng2-material@0.2.11",
+    "ng2-material": "npm:ng2-material@0.2.12",
     "redux": "npm:redux@3.3.1",
     "reflect-metadata": "npm:reflect-metadata@0.1.3",
     "ts": "github:frankwallis/plugin-typescript@4.0.2",
@@ -242,7 +242,7 @@ System.config({
       "bn.js": "npm:bn.js@4.11.0",
       "brorand": "npm:brorand@1.0.5"
     },
-    "npm:ng2-material@0.2.11": {
+    "npm:ng2-material@0.2.12": {
       "angular2": "npm:angular2@2.0.0-beta.9",
       "es6-promise": "npm:es6-promise@3.1.2",
       "es6-shim": "npm:es6-shim@0.33.13",
