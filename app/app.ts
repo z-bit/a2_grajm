@@ -1,7 +1,3 @@
-import 'angular2/bundles/angular2-polyfills.js';
-import 'zone.js';
-import 'reflect-metadata';
-
 import {createStore} from "redux";
 import {CountActions, count} from "./sample/redux/countActions";
 
